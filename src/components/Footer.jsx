@@ -2,7 +2,7 @@ import { Linkedin, Instagram, Facebook } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="bg-navy-blue text-white flex flex-col justify-center items-center p-8 absolute inset-x-0 bottom-0 space-y-6">
+        <footer className="bg-navy-blue text-white flex flex-col gap-4 justify-center items-center p-4">
             {/* Logo */}
             <h1 className="text-[30px] font-bold">
                 <span className="text-primary">Event</span>Hive
@@ -68,7 +68,6 @@ export default function Footer() {
             </p>
             </div>
             
-            {/* Copyright */}
            
         </footer>
     );

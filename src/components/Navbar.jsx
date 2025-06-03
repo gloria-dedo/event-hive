@@ -1,6 +1,6 @@
 export default function Navbar(){
     return (
-        <nav className="flex justify-between">
+        <nav className="flex justify-between px-6 py-6">
             {/* Logo */}
             <h1 className="text-[30px] font-bold">
                 <span className="text-primary">Event</span>Hive
